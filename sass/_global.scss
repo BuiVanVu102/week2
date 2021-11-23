@@ -1,0 +1,34 @@
+body {
+     line-height: 1.5rem;
+     overflow-x: hidden;
+     color: $text-color;
+     font-family: $font;
+     font-weight: 400;
+     background-color: #ffffff;
+     font-size: $text-decs-size;
+}
+
+.wrapper {
+     max-width: 100%;
+     margin: 0 auto;
+}
+
+.container{
+     max-width: 1200px;
+     width: 100%;
+     margin: 0 auto;
+}
+
+.ruler {
+     border: 0;
+     border-top: 1px solid #eee;
+     margin:  20px auto;
+     
+
+     box-sizing:  content-box;
+     height: 0;
+     max-width: 100%;
+
+     
+    overflow: visible;  
+}

@@ -1,0 +1,33 @@
+.header {
+     position: fixed;
+     top: 0;
+     // margin-bottom: 32px;
+
+     width: 100%;
+     background-color: white;
+     z-index: 1;
+     &__container {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+
+          margin: 0 auto;
+
+          color:$text-color;
+          font-size: $text-heading-size;
+     }
+     &__icon {
+          padding: 16px;
+          border: none;
+
+          overflow: hidden;
+
+          text-decoration: none;
+          cursor: pointer;
+          white-space: nowrap;
+     }
+     &__icon:hover {
+          color: #000;
+          background-color: #ccc;
+     }
+}
